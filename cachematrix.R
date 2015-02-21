@@ -1,4 +1,4 @@
-## The main function of the code is the cache the Inverse of a Matix by utilisng 2 functions
+## The main function of the code is to cache the Inverse of a Matrix by utilisng 2 functions
 ## 1. makeCacheMatrix
 ## 2. cacheSolve
 
