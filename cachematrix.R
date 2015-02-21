@@ -3,7 +3,7 @@
 ## 2. cacheSolve
 
 ## makeCacheMatrix function - will create special matrix object <<- than cache its inverse which
-## realy a list containing a function.
+## realy is a list containing a function.
 ## 1. set the value of the matrix
 ## 2. get the value of the matrix
 ## 3. set the value of the inverse
