@@ -2,7 +2,12 @@
 ## 1. makeCacheMatrix
 ## 2. cacheSolve
 
-## makeCacheMatrix function - will create special matrix object <<- than can cache its inverse
+## makeCacheMatrix function - will create special matrix object <<- than cache its inverse
+## 1. set the value of the matrix
+## 2. get the value of the matrix
+## 3. set the value of the inverse
+## 4. get the value of the inverse
+
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
