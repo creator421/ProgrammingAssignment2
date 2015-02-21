@@ -1,6 +1,8 @@
 ## The main function of the code is to cache the Inverse of a Matrix by utilisng 2 functions
 ## 1. makeCacheMatrix
 ## 2. cacheSolve
+## The main objective is to store the Matrix's functions and variables within Memory to minimise resources
+
 
 ## makeCacheMatrix function - will create special matrix object <<- than cache its inverse which
 ## realy is a list containing a function.
@@ -8,7 +10,6 @@
 ## 2. get the value of the matrix
 ## 3. set the value of the inverse
 ## 4. get the value of the inverse
-
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set <-function(y){
@@ -25,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## The function computes the inverse of the special "matrix" returned by makeCacheMatrix above.
-## If the inverse has already been calculated (and the matrix has not changed), then the cachesolve should retrieve
+## If the inverse has already been calculated (and the matrix has not changed), then the cacheSolve should retrieve
 ## the inverse from the cache
 ## This function assumes that the matrix is always invertible.
 
